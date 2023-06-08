@@ -28,7 +28,7 @@ This project uses exploratory data analysis to identify patterns that can be use
 <img src="images/credit%20def%20workflow.png?raw=true" />
 
 ##### Fig2: Some important insights obtained from the data
-<img src="images/credit%20def%20pareto%20cropped.png?raw=true" />
+<img src="images/credit%20def%20pareto%20reshaped.png?raw=true" />
 
 ##### Fig3: Some insights obtained with the help of violin chart
 <img src="images/credit%20def%20violin%20cropped.png?raw=true" />
