@@ -6,7 +6,16 @@
 
 This project predicts the probability of a given image being a skin cancer (melanoma) or not. I have used Convolutional Neural Network to build a binary classification model, trained and validated using image dataset containing about 33000 images. I have performed EDA on the dataset, and build the model to predict only the Melanoma class. The goal of this project is to help detecting cancer at an early age using images, which greatly helps in early treatment of cancer. 
 
-[![](https://img.shields.io/badge/Code-Python-success)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#) [![](https://img.shields.io/badge/Twitter-white?logo=Twitter)](#) [![](https://img.shields.io/badge/HuggingFace_Transformers-white?logo=huggingface)](#)
+##### Fig1: Exploratory Data Analysis performed on the dataset
+<img src="images/melanoma%20eda.png?raw=true" />
+
+##### Fig2: Sample augmented dataset
+<img src="images/melanoma%20augmented%20images.png?raw=true" />
+
+##### Fig3: Model performance analysis (Accuracy vs Epochs)
+<img src="images/melanoma%20accuracy%20vs%20epochs.png?raw=true" />
+
+[![](https://img.shields.io/badge/Code-Python-success)](#) 
 
 [Go to GitHub Repository](https://github.com/aje2907/Skin-Melanoma-Prediction/tree/main)
 
