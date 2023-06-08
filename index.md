@@ -28,10 +28,10 @@ This project uses exploratory data analysis to identify patterns that can be use
 <img src="images/credit%20def%20workflow.png?raw=true" />
 
 ##### Fig2: Some important insights obtained from the data
-<img src="images/credit%20def%20pareto.png?raw=true" />
+<img src="images/credit%20def%20pareto%20cropped.png?raw=true" />
 
 ##### Fig3: Some insights obtained with the help of violin chart
-<img src="images/credit%20def%20violin.png?raw=true" />
+<img src="images/credit%20def%20violin%20cropped.png?raw=true" />
 
 [![](https://img.shields.io/badge/Code-Python-success)](#) [![](https://img.shields.io/badge/Code-Scikit Learn-success)](#) [![](https://img.shields.io/badge/Code-Machine Learning-success)](#) [![](https://img.shields.io/badge/Code-Matplotlib-success)](#) [![](https://img.shields.io/badge/Code-Pandas-success)](#) [![](https://img.shields.io/badge/Code-Random Forest-success)](#) [![](https://img.shields.io/badge/Code-Exploratory Data Analysis-success)](#) 
 
