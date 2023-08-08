@@ -17,7 +17,7 @@
   <body>
     <div class="wrapper">
       <header style="text-align: center;">
-        <h1><a href="{{ "/" | absolute_url }}" style="color: black;"}>{{ site.title | default: site.github.repository_name }}</a></h1>
+        <h1 style="font-size: 24px;"><a href="{{ "/" | absolute_url }}" style="color: black;"}>{{ site.title | default: site.github.repository_name }}</a></h1>
         
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
@@ -63,7 +63,7 @@
         </style>
         {% endif %}
       </header>
-      <section>
+      <section style="text-align: justify;">
 
       {{ content }}
 
