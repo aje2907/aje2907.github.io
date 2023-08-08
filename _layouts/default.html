@@ -17,7 +17,6 @@
   <body>
     <div class="wrapper">
       <header style="
-      margin-left: -150px;
       width: 315px;
       text-align: center;
   ">
@@ -45,19 +44,26 @@
           
         </ul>
     -->
-        <button class="download-button" style="display: inline-block;
-        padding: 10px 20px;
-        background-color: #007bff;
-        color: white;
-        border: none;
-        border-radius: 4px;
-        text-align: center;
-        text-decoration: none;
-        cursor: pointer;">
-        <a href="pdf/Ajith resume in harvard format.pdf" target="_blank">
-          Resume <strong>PDF File</strong>
-        </a>
-        </button> 
+            <button class="download-button" style="display: inline-block;
+            padding: 10px 20px;
+            background-color: hsla(0, 0%, 100%, 0.999);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s;">
+            <a href="pdf/Ajith%20resume%20in%20harvard%20format.pdf" target="_blank">
+              Resume <strong>PDF File</strong>
+            </a>
+        </button>
+
+        <style>
+        .download-button:hover {
+        background-color: #00cc00; /* Change to your desired green color */
+        }
+        </style>
         {% endif %}
       </header>
       <section>
