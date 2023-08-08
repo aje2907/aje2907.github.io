@@ -55,7 +55,7 @@ We employed several forecasting methods, including seasonal naive, exponential s
 
 ## Other projects
 
-- ### Internet Retail Sales Analysis using Power BI
+### Internet Retail Sales Analysis using Power BI
 
 ##### Fig1: Dashboard 1
 <img src="images/powerbi1.jpeg?raw=true" />
@@ -65,7 +65,7 @@ We employed several forecasting methods, including seasonal naive, exponential s
 
 [Go to GitHub Repository](https://github.com/aje2907/Power-BI-Project)
 
-- ### Loan Defaulter Analysis using Tableau
+### Loan Defaulter Analysis using Tableau
 
 ##### Fig1: Dashboard 1
 <img src="images/tableau1.jpeg?raw=true" />
