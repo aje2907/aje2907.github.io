@@ -63,19 +63,15 @@
         </style>
         {% endif %}
       </header>
-      <section style="text-align: justify; display: inline-block; width: 50%;">
-      <div style="float: left; width: 30%;">
+      <section style="text-align: justify; display: flex; width: 72%; flex-direction: row; flex-wrap: wrap; align-content: stretch; justify-content: space-between;">
+      <div style="float: left; width: 57%;">
       {{ content }}
       </div>
-      <div style="float: left; width: 30%;">
+      <div style="float: left; width: 35%; overflow-x: hidden;">
         <p>"Hi 222"</p>
       </div>
       </section>
 
-      <section style="text-align: justify; display: inline-block; width: 50%;">
-        <p>"HI"</p>
-
-      </section>
       <footer>
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
