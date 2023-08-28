@@ -15,35 +15,28 @@
     <![endif]-->
     <style>
       /* preventing image overflow on mobile */
-      .box {
-          display:inline-block;
-          width:100%;
-          text-align:center;  
-      }      
       img {
-          display:inline-block;
-          width:768px;
-          margin:0 auto;
-        }
+  max-width: 90vw;
+  height: auto;
+}
 
-      @media only screen and (max-width: 767px) {
-      img {
-        width:100%;
-      }
-    }
+/* Media query for smaller screens (e.g., mobile) */
+@media (max-width: 768px) {
+  img {
+    max-width: 50%; /* Adjust as needed */
+  }
+}
     </style>
   </head>
   <body>
     <div class="wrapper" style="width: 1235px;">
       <header style="text-align: center;">
         <h1 style="font-size: 24px;"><a href="{{ "/" | absolute_url }}" style="color: black;"}>{{ site.title | default: site.github.repository_name }}</a></h1>
-        <div class="box">
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
           <!-- <img src="{{site.logo | relative_url}}" alt="Logo" style="
           max-width: 35%;"/> -->
         {% endif %}
-        </div>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
         {% if site.github.is_project_page %}
