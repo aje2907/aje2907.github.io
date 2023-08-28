@@ -16,16 +16,15 @@
     <style>
       /* preventing image overflow on mobile */
       img {
-  /*max-width: 90vw;*/
-  height: auto;
-}
+        height: auto;
+      }
 
-/* Media query for smaller screens (e.g., mobile) */
-@media (max-width: 768px) {
-  img {
-    max-width: 32%; /* Adjust as needed */
+    /* Media query for smaller screens (e.g., mobile) */
+    @media (max-width: 768px) {
+    .profilepic {
+      max-width: 32%; /* Adjust as needed */
+    }
   }
-}
     </style>
   </head>
   <body>
@@ -33,7 +32,7 @@
       <header style="text-align: center;">
         <h1 style="font-size: 24px;"><a href="{{ "/" | absolute_url }}" style="color: black;"}>{{ site.title | default: site.github.repository_name }}</a></h1>
         {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
+          <img src="{{site.logo | relative_url}}" alt="Logo" class="profilepic"/>
           <!-- <img src="{{site.logo | relative_url}}" alt="Logo" style="
           max-width: 35%;"/> -->
         {% endif %}
