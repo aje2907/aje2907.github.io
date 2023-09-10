@@ -12,17 +12,15 @@ Graduating - January 2024
 
 ---
 
- * *Programming:*	Python, R, SQL, MATLAB, Machine Learning, Deep Learning, Reinforcement Learning
+ * *Programming:*	Python, R, SQL, MATLAB, Machine Learning, Deep Learning, Reinforcement Learning, Git, GitHub
 
- * *Databases:* MySQL, SQLite, Postgres SQL, Data Warehousing
+ * *Databases:* MySQL, SQLite, Postgres SQL, Data Warehousing, ETL
 
- * *Data Engineering:* Pyspark, ETL, HDFS
-
- * *Cloud:* Azure Data Factory, Azure Databricks, Azure Data lakes 
+ * *Cloud:* Azure Data Factory, Azure Data lakes, Azure Machine Learning
 
  * *Visualization:* Tableau, Power BI, Seaborn, Matplotlib
 
-## Summer Research Project
+## Research Project
 
 *University at Buffalo, May 2023 - August 2023*
 
@@ -43,9 +41,11 @@ Huntington’s disease is an inherited neurodegenerative condition affecting bra
 
 *July 2021 – April 2022*
 
-Developed one-stop solution for transforming and storing logistics data using Python and Azure Functions.
+Successfully integrated data from multiple file sources, cleaned the raw data, and manipulated it using Python. Performed outlier treatment on numerical data, null value imputation, and standardization to improve data quality.
 
-Implemented Azure Functions to capture and transform streaming data from Azure Event Hub and stored the transformed data on Azure Cosmos DB using MongoDB API.
+Developed data preprocessing pipeline on Azure Machine Learning workspace as scripts, consisting of data load, data transformation, and cleaned data storage components as child jobs. Automated the pipeline by scheduling it.
+
+Created derived attributes on the high dimensional raw data during the transformation stage by utilizing several features, which helped in dimensionality reduction, by reducing the number of features by almost 20%.
 
 **Infosys Limited - Senior Systems Engineer**
 
@@ -53,13 +53,11 @@ Implemented Azure Functions to capture and transform streaming data from Azure E
 
 *April 2018 – July 2021*
 
-Managed and maintained trade store applications and master databases for a banking client, ensuring data integrity and optimizing database performance on Oracle and Unix platforms.
+Managed and maintained four trade store applications hosted on Linux, performed several DML operations on databases working with Oracle, ensuring data integrity, database backup, and cleanup.
 
-Leveraged various monitoring and scheduling tools including Autosys, Geneos, and ServiceNow to track system performance, schedule jobs, and ensure service level agreements (SLAs) were met.
+Leveraged various monitoring and scheduling tools including Autosys, Geneos, and ServiceNow to track system performance, schedule jobs, and ensure service level agreements (SLAs) were met by applying Agile methodology.
 
-Developed and implemented a procedural SQL script that automated multiple manual tasks, significantly reducing the time taken to resolve critical data compatibility issues by 25 minutes.
-
-Infosys Certified in MySQL, Power BI, Tableau and Talend Open Studio for Data Integration. Also secured 93% in the Infosys training program on Python, RDBMS, and Software Engineering.
+Designed and implemented a procedural SQL script to automate multiple manual tasks, reducing time taken to resolve critical data compatibility issues by 25 minutes.
 
 ## Certifications
 
@@ -68,3 +66,9 @@ Infosys Certified in MySQL, Power BI, Tableau and Talend Open Studio for Data In
 **PG Certification in Business Analytics and Data Science** | SSN SACE | Chennai, India | Aug 2021 | CGPA: 9.3
 
 **Microsoft Certified Azure Data Engineer Associate** | September 2021 (Expires September 2024)
+
+## Achievements
+
+---
+
+**INSTA Award, Infosys Limited, July 2020** – For exhibiting excellent teamwork and taking up additional responsibilities for the team’s success.
