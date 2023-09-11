@@ -56,6 +56,9 @@ We employed several forecasting methods, including seasonal naive, exponential s
 ## Other projects
 
 ### Internet Retail Sales Analysis using Power BI
+•	Analyzed sales data using Power BI, transformed Excel spreadsheet data into a detailed report, utilizing DAX for calculated measures and custom columns; studied trends and patterns to identify the Key Performance Indicators.
+
+•	Interesting observations from the data are that the store’s predominant sales are from North America, with customers over 40 years of age contributing to more than 65% of total sales, indicating a significant sales increase in 2013.
 
 ##### Fig1: Dashboard 1
 <img src="images/powerbi1.jpeg?raw=true" />
@@ -66,6 +69,9 @@ We employed several forecasting methods, including seasonal naive, exponential s
 [Go to GitHub Repository](https://github.com/aje2907/Power-BI-Project)
 
 ### Loan Defaulter Analysis using Tableau
+•	Engineered a dynamic Tableau dashboard featuring comprehensive visualizations showcasing KPIs pertaining to loan defaulters. The resulting insights assist in making informed communication to the business decision-makers.
+
+•	Deeper analysis helped to arrive at some key insights like 43% of defaulters had changed their phone numbers in the last 1 year, 80% have less than 3 years of work experience, and 41% have changed their jobs in the last 3 years.
 
 ##### Fig1: Dashboard 1
 <img src="images/tableau1.jpeg?raw=true" />
