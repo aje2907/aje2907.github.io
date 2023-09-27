@@ -4,8 +4,6 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br>
   Hey, Ajith here. Currently pursuing MS Data Science at University at Buffalo. Skills: ML, Deep learning, SQL, Power BI, Tableau, Analytics.
   <br><br>
-  <a href="https://www.linkedin.com/in/aje2907/">View my LinkedIn Profile</a> 
-  <br><br>
   <a href="https://github.com/aje2907">View my Github Profile</a> 
 show_downloads: true  
 theme: jekyll-theme-minimal
